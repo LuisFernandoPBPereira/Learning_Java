@@ -7,6 +7,7 @@
 <h2>O que aprendi?</h2>
 <ul>
  <li>ArrayList</li>
+ <li>Getters e Setters</li>
 </ul>
 
 <br/>
