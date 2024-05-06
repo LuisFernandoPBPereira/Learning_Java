@@ -28,4 +28,19 @@ public class Pedido
 
         return totalPreco;
     }
+
+    public void listarPedido()
+    {
+        System.out.println("\nCliente: " + this.getCliente().getNome());
+        
+        for (var produto : Itens) 
+        {
+            System.out.println("Produto:");
+            System.out.println("Marca: " + produto.getMarca());    
+            System.out.println("Nome: " + produto.getNome());    
+            System.out.println("Preço: " + produto.getPreco());    
+            System.out.println();
+        }
+        System.out.println();
+    }
 }
