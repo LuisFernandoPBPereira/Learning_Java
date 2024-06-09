@@ -2,8 +2,8 @@ public class Aluno extends Pessoa{
     private int Matricula;
     private String Curso;
     
-    public Aluno(int matricula, String curso) {
-        super("Luis", 19, 1.79);
+    public Aluno(String nome, int idade, double altura, int matricula, String curso) {
+        super(nome, idade, altura);
         this.Matricula = matricula;
         this.Curso = curso;
     }
